@@ -1,6 +1,5 @@
 require "baton"
 require "amqp"
-require "pusher"
 require "json"
 require "eventmachine"
 
@@ -15,7 +14,6 @@ module Baton
 
     def run
       logger.info "Starting baton-ping monitor v#{Baton::VERSION}"
-
       EM.run do
         connection = AMQP.connect(Baton.configuration.connection_opts)
 
@@ -25,6 +23,7 @@ module Baton
 
         queue.bind(exchange_out).subscribe do |payload|
           logger.info "Message read: #{payload}"
+          # Do something with the payload here
         end
       end
 

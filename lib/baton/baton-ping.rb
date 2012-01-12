@@ -7,7 +7,6 @@ module Baton
   class PingService < Baton::Service
 
     def setup_consumers
-      puts "setting up consumers"
       srv = Baton::PingConsumer.new(server.fqdn, server)
       add_consumer(srv)
     end
