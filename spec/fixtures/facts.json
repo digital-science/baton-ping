@@ -1,0 +1,1776 @@
+{
+  "dmi": {
+    "dmidecode_version": "2.9"
+  },
+  "keys": {
+    "ssh": {
+      "host_dsa_public": "AAAAB3NzaC1kc3MAAACBANeoX28hbkZw4GdMSX+9l2ae9cZLU4nmlWQ+Co/e+JXGqdsQxRTEEy+Sk2vtKkDZryd8fMHhrEiaU+o3ZHEeL5XGmYIyRVxrbAfCJjSmigALhi2hzNm6i5ycari8C8Z7hMGr60QRnQoIVWtZMg9KvbLhfzQxa+QDsZowBLZVkkEDAAAAFQCYzfGphnUzfamoCk84xoYk7hxLZwAAAIAsiJ4oDY2e3lA2cK6VOCkDirghauhpanaJY1g1htlKS6B2LGWy3BQs/O6Jpsrhn5QvEk37j71IyMkjexiUM7aaG+NHx8qtDf0Ld9EEMH9NG3eIkpoyLWPi5yYFlSi7w+wVnDCzfX7RyeQh/0X+PwkZPrjcvB7+rRLoP073EjWskAAAAIEAsi5nDDa1PAkAnN0WczZv/mHc1AuX2Ru6lHfem6t119oTgy9nl3P/th+ggFCzDb6JDnPExndpd/skX+AgQtSP/DWHUhinlEipjSQtEircw5fVdhm0t3Y95csKk5G7NrQ+WCOEdaAnfRL2nz6vIg9X4CY8Otow7I2EJBK35ULadkg=",
+      "host_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDmyLXaLdhuB0Fg2OYF7OIWZecK+oU2EzPAJiIRHyKECEvhqWyxPyLXwQe17J1LClK6RQ4IjJsIIzwdxDnMGj40NBa277RtOnTjCxqqlO/cE2pTXTsc79RIWeEddMjnI5lyIEzO4013PA1rHZsrxItQYXTGNVhUz3UcLYMDgtBbBKDUDmX0KgdpJJBBOy1NivcJNg1AaW+98XhyxE8w90O2Mp5dLVhztLNzpM6BdZCAMt+OYzIARVRuLK1kOilU7I9682VivXcyF8862jRimha6vl4FfbIyDQ4SlgquBPqAMvhRGsmD+zmg4wjHZJchzAWDTsAaL17PCp90p8FL7dlR"
+    }
+  },
+  "kernel": {
+    "modules": {
+      "msdos": {
+        "size": "17333",
+        "refcount": "0"
+      },
+      "ufs": {
+        "size": "75815",
+        "refcount": "0"
+      },
+      "fat": {
+        "size": "61374",
+        "refcount": "2"
+      },
+      "libcrc32c": {
+        "size": "12644",
+        "refcount": "1"
+      },
+      "btrfs": {
+        "size": "550402",
+        "refcount": "0"
+      },
+      "exportfs": {
+        "size": "12998",
+        "refcount": "1"
+      },
+      "xfs": {
+        "size": "819034",
+        "refcount": "0"
+      },
+      "vfat": {
+        "size": "21708",
+        "refcount": "0"
+      },
+      "zlib_deflate": {
+        "size": "27074",
+        "refcount": "1"
+      },
+      "raid1": {
+        "size": "30596",
+        "refcount": "1"
+      },
+      "acpiphp": {
+        "size": "24097",
+        "refcount": "0"
+      }
+    },
+    "machine": "x86_64",
+    "name": "Linux",
+    "os": "GNU/Linux",
+    "version": "#42-Ubuntu SMP Mon Apr 11 04:06:34 UTC 2011",
+    "release": "2.6.38-8-virtual"
+  },
+  "trebuchet": [
+    "octobutler"
+  ],
+  "platform_version": "11.04",
+  "fqdn": "build-prod-i-722b0004.dsci.it",
+  "filesystem": {
+    "proc": {
+      "mount_options": [
+        "rw",
+        "noexec",
+        "nosuid",
+        "nodev"
+      ],
+      "fs_type": "proc",
+      "mount": "/proc"
+    },
+    "/dev/xvdh": {
+      "kb_size": "258030980",
+      "kb_available": "207732596",
+      "mount_options": [
+        "rw",
+        "user_xattr",
+        "acl"
+      ],
+      "fs_type": "ext4",
+      "mount": "/srv/artifacts",
+      "percent_used": "16%",
+      "kb_used": "37191184"
+    },
+    "none": {
+      "kb_size": "3822980",
+      "kb_available": "3822980",
+      "mount_options": [
+        "rw",
+        "noexec",
+        "nosuid",
+        "nodev"
+      ],
+      "fs_type": "tmpfs",
+      "mount": "/var/lock",
+      "percent_used": "0%",
+      "kb_used": "0"
+    },
+    "/dev/xvda1": {
+      "kb_size": "10321208",
+      "kb_available": "1912864",
+      "mount": "/",
+      "percent_used": "81%",
+      "kb_used": "7884068"
+    },
+    "rootfs": {
+      "mount_options": [
+        "rw"
+      ],
+      "fs_type": "rootfs",
+      "mount": "/"
+    },
+    "/dev/md0": {
+      "kb_size": "51605044",
+      "kb_available": "25579232",
+      "mount_options": [
+        "rw",
+        "user_xattr",
+        "acl"
+      ],
+      "fs_type": "ext4",
+      "mount": "/srv",
+      "percent_used": "48%",
+      "kb_used": "23404428"
+    },
+    "/dev/xvdb": {
+      "kb_size": "433455904",
+      "kb_available": "411067052",
+      "mount_options": [
+        "rw",
+        "_netdev"
+      ],
+      "fs_type": "ext3",
+      "mount": "/mnt",
+      "percent_used": "1%",
+      "kb_used": "370548"
+    },
+    "/dev/disk/by-label/uec-rootfs": {
+      "mount_options": [
+        "rw",
+        "relatime",
+        "barrier=1",
+        "data=ordered"
+      ],
+      "fs_type": "ext4",
+      "mount": "/"
+    }
+  },
+  "command": {
+    "ps": "ps -ef"
+  },
+  "ipaddress": "10.49.127.51",
+  "memory": {
+    "dirty": "40kB",
+    "vmalloc_used": "24244kB",
+    "page_tables": "13324kB",
+    "buffers": "280020kB",
+    "slab_unreclaim": "29768kB",
+    "vmalloc_chunk": "34359714040kB",
+    "nfs_unstable": "0kB",
+    "slab": "417608kB",
+    "inactive": "2031824kB",
+    "total": "7645964kB",
+    "vmalloc_total": "34359738367kB",
+    "free": "822004kB",
+    "commit_limit": "3822980kB",
+    "anon_pages": "1653640kB",
+    "writeback": "0kB",
+    "cached": "4298884kB",
+    "swap": {
+      "total": "0kB",
+      "free": "0kB",
+      "cached": "0kB"
+    },
+    "committed_as": "1806992kB",
+    "bounce": "0kB",
+    "slab_reclaimable": "387840kB",
+    "mapped": "35280kB",
+    "active": "4198020kB"
+  },
+  "idletime_seconds": 39960709,
+  "counters": {
+    "network": {
+      "interfaces": {
+        "lo": {
+          "tx": {
+            "bytes": "56836935509",
+            "packets": "110809386",
+            "collisions": "0",
+            "queuelen": "0",
+            "errors": "0",
+            "carrier": "0",
+            "overrun": "0",
+            "drop": "0"
+          },
+          "rx": {
+            "bytes": "56836935509",
+            "packets": "110809386",
+            "errors": "0",
+            "overrun": "0",
+            "drop": "0",
+            "frame": "0"
+          }
+        },
+        "eth0": {
+          "tx": {
+            "bytes": "51057244883",
+            "packets": "43867081",
+            "collisions": "0",
+            "queuelen": "1000",
+            "errors": "0",
+            "carrier": "0",
+            "overrun": "0",
+            "drop": "0"
+          },
+          "rx": {
+            "bytes": "14606504973",
+            "packets": "52098210",
+            "errors": "0",
+            "overrun": "0",
+            "drop": "0",
+            "frame": "0"
+          }
+        }
+      }
+    }
+  },
+  "chef_environment": "Production",
+  "domain": "dsci.it",
+  "os": "linux",
+  "idletime": "462 days 12 hours 11 minutes 49 seconds",
+  "virtualization": {
+
+  },
+  "lsb": {
+    "codename": "natty",
+    "id": "Ubuntu",
+    "description": "\"Ubuntu 11.04\"",
+    "release": "11.04"
+  },
+  "network": {
+    "default_interface": "eth0",
+    "interfaces": {
+      "lo": {
+        "flags": [
+          "UP",
+          "LOOPBACK",
+          "RUNNING"
+        ],
+        "addresses": {
+          "::1": {
+            "scope": "Node",
+            "prefixlen": "128",
+            "family": "inet6"
+          },
+          "127.0.0.1": {
+            "netmask": "255.0.0.0",
+            "family": "inet"
+          }
+        },
+        "mtu": "16436",
+        "encapsulation": "Loopback"
+      },
+      "eth0": {
+        "flags": [
+          "UP",
+          "BROADCAST",
+          "RUNNING",
+          "MULTICAST"
+        ],
+        "number": "0",
+        "addresses": {
+          "10.49.127.51": {
+            "netmask": "255.255.254.0",
+            "broadcast": "10.49.127.255",
+            "family": "inet"
+          },
+          "12:31:3c:04:7c:c5": {
+            "family": "lladdr"
+          },
+          "fe80::1031:3cff:fe04:7cc5": {
+            "scope": "Link",
+            "prefixlen": "64",
+            "family": "inet6"
+          }
+        },
+        "mtu": "1500",
+        "type": "eth",
+        "arp": {
+          "10.49.126.1": "fe:ff:ff:ff:ff:ff"
+        },
+        "encapsulation": "Ethernet"
+      }
+    },
+    "default_gateway": "10.49.126.1"
+  },
+  "current_user": "c.vilhena",
+  "ohai_time": 1322580299.92025,
+  "chef_packages": {
+    "ohai": {
+      "ohai_root": "/usr/lib/ruby/1.8/ohai",
+      "version": "0.6.4"
+    },
+    "chef": {
+      "version": "0.10.4",
+      "chef_root": "/usr/lib/ruby/vendor_ruby"
+    }
+  },
+  "os_version": "2.6.38-8-virtual",
+  "languages": {
+    "java": {
+      "hotspot": {
+        "name": "Java HotSpot(TM) 64-Bit Server VM",
+        "build": "20.1-b02, mixed mode"
+      },
+      "runtime": {
+        "name": "Java(TM) SE Runtime Environment",
+        "build": "1.6.0_26-b03"
+      },
+      "version": "1.6.0_26"
+    },
+    "perl": {
+      "version": "5.10.1",
+      "archname": "x86_64-linux-gnu-thread-multi"
+    },
+    "python": {
+      "version": "2.7.1+",
+      "builddate": "Apr 11 2011, 18:13:53"
+    },
+    "ruby": {
+      "target_os": "linux",
+      "bin_dir": "/usr/bin",
+      "target_vendor": "pc",
+      "host_vendor": "pc",
+      "ruby_bin": "/usr/bin/ruby1.8",
+      "target_cpu": "x86_64",
+      "version": "1.8.7",
+      "host_os": "linux-gnu",
+      "target": "x86_64-pc-linux-gnu",
+      "release_date": "2010-08-16",
+      "host_cpu": "x86_64",
+      "host": "x86_64-pc-linux-gnu",
+      "gems_dir": "/var/lib/gems/1.8",
+      "platform": "x86_64-linux"
+    }
+  },
+  "cpu": {
+    "real": 0,
+    "total": 2,
+    "0": {
+      "flags": [
+        "fpu",
+        "de",
+        "tsc",
+        "msr",
+        "pae",
+        "cx8",
+        "sep",
+        "cmov",
+        "pat",
+        "clflush",
+        "mmx",
+        "fxsr",
+        "sse",
+        "sse2",
+        "ss",
+        "ht",
+        "syscall",
+        "nx",
+        "lm",
+        "constant_tsc",
+        "rep_good",
+        "nopl",
+        "nonstop_tsc",
+        "aperfmperf",
+        "pni",
+        "ssse3",
+        "cx16",
+        "sse4_1",
+        "sse4_2",
+        "popcnt",
+        "hypervisor",
+        "lahf_lm",
+        "dts"
+      ],
+      "model": "26",
+      "model_name": "Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz",
+      "family": "6",
+      "mhz": "2266.746",
+      "vendor_id": "GenuineIntel",
+      "cache_size": "4096 KB",
+      "stepping": "5"
+    },
+    "1": {
+      "flags": [
+        "fpu",
+        "de",
+        "tsc",
+        "msr",
+        "pae",
+        "cx8",
+        "sep",
+        "cmov",
+        "pat",
+        "clflush",
+        "mmx",
+        "fxsr",
+        "sse",
+        "sse2",
+        "ss",
+        "ht",
+        "syscall",
+        "nx",
+        "lm",
+        "constant_tsc",
+        "rep_good",
+        "nopl",
+        "nonstop_tsc",
+        "aperfmperf",
+        "pni",
+        "ssse3",
+        "cx16",
+        "sse4_1",
+        "sse4_2",
+        "popcnt",
+        "hypervisor",
+        "lahf_lm",
+        "dts"
+      ],
+      "model": "26",
+      "model_name": "Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz",
+      "family": "6",
+      "mhz": "2266.746",
+      "vendor_id": "GenuineIntel",
+      "cache_size": "4096 KB",
+      "stepping": "5"
+    }
+  },
+  "uptime": "118 days 04 hours 42 minutes 04 seconds",
+  "hostname": "build-prod-i-722b0004",
+  "etc": {
+    "group": {
+      "k.thaney": {
+        "gid": 1070,
+        "members": [
+
+        ]
+      },
+      "central": {
+        "gid": 1505,
+        "members": [
+          "j.griffin",
+          "c.vilhena",
+          "k.thaney",
+          "g.gurnhill",
+          "a.myers",
+          "a.smout",
+          "e.pitt",
+          "s.peck",
+          "t.hannay",
+          "c.wuhrer",
+          "s.laqua"
+        ]
+      },
+      "testuser": {
+        "gid": 1059,
+        "members": [
+
+        ]
+      },
+      "thom": {
+        "gid": 1002,
+        "members": [
+
+        ]
+      },
+      "sasl": {
+        "gid": 45,
+        "members": [
+
+        ]
+      },
+      "kmem": {
+        "gid": 15,
+        "members": [
+
+        ]
+      },
+      "github": {
+        "gid": 1060,
+        "members": [
+
+        ]
+      },
+      "artifactory": {
+        "gid": 999,
+        "members": [
+
+        ]
+      },
+      "openldap": {
+        "gid": 108,
+        "members": [
+
+        ]
+      },
+      "lp": {
+        "gid": 7,
+        "members": [
+
+        ]
+      },
+      "dip": {
+        "gid": 30,
+        "members": [
+
+        ]
+      },
+      "l.thomson": {
+        "gid": 1073,
+        "members": [
+
+        ]
+      },
+      "c.vilhena": {
+        "gid": 1066,
+        "members": [
+
+        ]
+      },
+      "test": {
+        "gid": 1503,
+        "members": [
+
+        ]
+      },
+      "adminR": {
+        "gid": 1001,
+        "members": [
+
+        ]
+      },
+      "www-data": {
+        "gid": 33,
+        "members": [
+
+        ]
+      },
+      "steve": {
+        "gid": 1055,
+        "members": [
+
+        ]
+      },
+      "jgoller": {
+        "gid": 1058,
+        "members": [
+
+        ]
+      },
+      "news": {
+        "gid": 9,
+        "members": [
+
+        ]
+      },
+      "ssh": {
+        "gid": 106,
+        "members": [
+
+        ]
+      },
+      "sudo": {
+        "gid": 27,
+        "members": [
+
+        ]
+      },
+      "w.roe": {
+        "gid": 1063,
+        "members": [
+
+        ]
+      },
+      "cdrom": {
+        "gid": 24,
+        "members": [
+
+        ]
+      },
+      "list": {
+        "gid": 38,
+        "members": [
+
+        ]
+      },
+      "uucp": {
+        "gid": 10,
+        "members": [
+
+        ]
+      },
+      "refinery": {
+        "gid": 1088,
+        "members": [
+
+        ]
+      },
+      "a.smout": {
+        "gid": 1075,
+        "members": [
+
+        ]
+      },
+      "g.gurnhill": {
+        "gid": 1071,
+        "members": [
+
+        ]
+      },
+      "e.adie": {
+        "gid": 1068,
+        "members": [
+
+        ]
+      },
+      "voice": {
+        "gid": 22,
+        "members": [
+
+        ]
+      },
+      "netdev": {
+        "gid": 109,
+        "members": [
+
+        ]
+      },
+      "shadow": {
+        "gid": 42,
+        "members": [
+
+        ]
+      },
+      "o.nightingale": {
+        "gid": 1087,
+        "members": [
+
+        ]
+      },
+      "octobutler": {
+        "gid": 1083,
+        "members": [
+
+        ]
+      },
+      "root": {
+        "gid": 0,
+        "members": [
+
+        ]
+      },
+      "metrics": {
+        "gid": 1501,
+        "members": [
+          "dhagon",
+          "jgoller",
+          "j.petimar",
+          "c.trasande",
+          "w.roe",
+          "m.szomszor",
+          "t.hunger"
+        ]
+      },
+      "games": {
+        "gid": 60,
+        "members": [
+
+        ]
+      },
+      "l.hawizy": {
+        "gid": 1064,
+        "members": [
+
+        ]
+      },
+      "c.trasande": {
+        "gid": 1062,
+        "members": [
+
+        ]
+      },
+      "adm": {
+        "gid": 4,
+        "members": [
+
+        ]
+      },
+      "crontab": {
+        "gid": 102,
+        "members": [
+
+        ]
+      },
+      "o.legg": {
+        "gid": 1086,
+        "members": [
+
+        ]
+      },
+      "automata": {
+        "gid": 1504,
+        "members": [
+          "github",
+          "octobutler",
+          "refinery"
+        ]
+      },
+      "jsiddle": {
+        "gid": 1053,
+        "members": [
+
+        ]
+      },
+      "src": {
+        "gid": 40,
+        "members": [
+
+        ]
+      },
+      "staff": {
+        "gid": 50,
+        "members": [
+
+        ]
+      },
+      "gnats": {
+        "gid": 41,
+        "members": [
+
+        ]
+      },
+      "operator": {
+        "gid": 37,
+        "members": [
+
+        ]
+      },
+      "fuse": {
+        "gid": 104,
+        "members": [
+
+        ]
+      },
+      "m.gorodnitsky": {
+        "gid": 1085,
+        "members": [
+
+        ]
+      },
+      "s.peck": {
+        "gid": 1077,
+        "members": [
+
+        ]
+      },
+      "redis": {
+        "gid": 113,
+        "members": [
+
+        ]
+      },
+      "daemon": {
+        "gid": 1,
+        "members": [
+
+        ]
+      },
+      "proxy": {
+        "gid": 13,
+        "members": [
+
+        ]
+      },
+      "surechem": {
+        "gid": 1500,
+        "members": [
+          "ahinton",
+          "jsiddle",
+          "rkoks",
+          "l.hawizy",
+          "e.piveteau",
+          "j.stevenson",
+          "n.goncharoff"
+        ]
+      },
+      "t.hunger": {
+        "gid": 1091,
+        "members": [
+
+        ]
+      },
+      "n.goncharoff": {
+        "gid": 1082,
+        "members": [
+
+        ]
+      },
+      "a.myers": {
+        "gid": 1074,
+        "members": [
+
+        ]
+      },
+      "jetty": {
+        "gid": 111,
+        "members": [
+
+        ]
+      },
+      "disk": {
+        "gid": 6,
+        "members": [
+
+        ]
+      },
+      "landscape": {
+        "gid": 107,
+        "members": [
+
+        ]
+      },
+      "tty": {
+        "gid": 5,
+        "members": [
+
+        ]
+      },
+      "sys": {
+        "gid": 3,
+        "members": [
+
+        ]
+      },
+      "m.szomszor": {
+        "gid": 1089,
+        "members": [
+
+        ]
+      },
+      "j.stevenson": {
+        "gid": 1081,
+        "members": [
+
+        ]
+      },
+      "e.pitt": {
+        "gid": 1076,
+        "members": [
+
+        ]
+      },
+      "j.petimar": {
+        "gid": 1061,
+        "members": [
+
+        ]
+      },
+      "bpickles": {
+        "gid": 1054,
+        "members": [
+
+        ]
+      },
+      "man": {
+        "gid": 12,
+        "members": [
+
+        ]
+      },
+      "s.laqua": {
+        "gid": 1084,
+        "members": [
+
+        ]
+      },
+      "m.hahnel": {
+        "gid": 1072,
+        "members": [
+
+        ]
+      },
+      "plugdev": {
+        "gid": 46,
+        "members": [
+
+        ]
+      },
+      "tape": {
+        "gid": 26,
+        "members": [
+
+        ]
+      },
+      "rkoks": {
+        "gid": 1052,
+        "members": [
+
+        ]
+      },
+      "ahinton": {
+        "gid": 1051,
+        "members": [
+
+        ]
+      },
+      "t.hannay": {
+        "gid": 1078,
+        "members": [
+
+        ]
+      },
+      "ntp": {
+        "gid": 112,
+        "members": [
+
+        ]
+      },
+      "floppy": {
+        "gid": 25,
+        "members": [
+
+        ]
+      },
+      "users": {
+        "gid": 100,
+        "members": [
+
+        ]
+      },
+      "fax": {
+        "gid": 21,
+        "members": [
+
+        ]
+      },
+      "syslog": {
+        "gid": 103,
+        "members": [
+
+        ]
+      },
+      "n.ali": {
+        "gid": 1090,
+        "members": [
+
+        ]
+      },
+      "research-tools": {
+        "gid": 1506,
+        "members": [
+          "e.adie",
+          "s.scott",
+          "m.hahnel",
+          "l.thomson",
+          "m.gorodnitsky"
+        ]
+      },
+      "j.griffin": {
+        "gid": 1065,
+        "members": [
+
+        ]
+      },
+      "dhagon": {
+        "gid": 1057,
+        "members": [
+
+        ]
+      },
+      "mlocate": {
+        "gid": 105,
+        "members": [
+
+        ]
+      },
+      "bin": {
+        "gid": 2,
+        "members": [
+
+        ]
+      },
+      "video": {
+        "gid": 44,
+        "members": [
+
+        ]
+      },
+      "irc": {
+        "gid": 39,
+        "members": [
+
+        ]
+      },
+      "libuuid": {
+        "gid": 101,
+        "members": [
+
+        ]
+      },
+      "admin": {
+        "gid": 110,
+        "members": [
+          "steve",
+          "thom",
+          "adminR"
+        ]
+      },
+      "newbamboo": {
+        "gid": 1502,
+        "members": [
+          "bpickles",
+          "o.legg",
+          "o.nightingale",
+          "n.ali"
+        ]
+      },
+      "nogroup": {
+        "gid": 65534,
+        "members": [
+
+        ]
+      },
+      "e.piveteau": {
+        "gid": 1080,
+        "members": [
+
+        ]
+      },
+      "s.scott": {
+        "gid": 1069,
+        "members": [
+
+        ]
+      },
+      "rubygems": {
+        "gid": 998,
+        "members": [
+
+        ]
+      },
+      "riak": {
+        "gid": 1507,
+        "members": [
+
+        ]
+      },
+      "hubot": {
+        "gid": 995,
+        "members": [
+
+        ]
+      },
+      "utmp": {
+        "gid": 43,
+        "members": [
+
+        ]
+      },
+      "c.wuhrer": {
+        "gid": 1079,
+        "members": [
+
+        ]
+      },
+      "dialout": {
+        "gid": 20,
+        "members": [
+
+        ]
+      },
+      "mail": {
+        "gid": 8,
+        "members": [
+
+        ]
+      },
+      "backup": {
+        "gid": 34,
+        "members": [
+
+        ]
+      },
+      "audio": {
+        "gid": 29,
+        "members": [
+
+        ]
+      }
+    },
+    "passwd": {
+      "thom": {
+        "dir": "/home/thom",
+        "gid": 1002,
+        "gecos": "Thom May",
+        "uid": 1002,
+        "shell": "/bin/zsh"
+      },
+      "testuser": {
+        "dir": "/home/testuser",
+        "gid": 1059,
+        "gecos": "Test User",
+        "uid": 1059,
+        "shell": "/bin/bash"
+      },
+      "jenkins": {
+        "dir": "/var/lib/jenkins",
+        "gid": 65534,
+        "gecos": "",
+        "uid": 105,
+        "shell": "/bin/bash"
+      },
+      "k.thaney": {
+        "dir": "/home/k.thaney",
+        "gid": 1070,
+        "gecos": "Kaitlin Thaney",
+        "uid": 1070,
+        "shell": "/bin/bash"
+      },
+      "artifactory": {
+        "dir": "/srv/artifactory/",
+        "gid": 999,
+        "gecos": "",
+        "uid": 999,
+        "shell": "/bin/sh"
+      },
+      "lp": {
+        "dir": "/var/spool/lpd",
+        "gid": 7,
+        "gecos": "lp",
+        "uid": 7,
+        "shell": "/bin/sh"
+      },
+      "github": {
+        "dir": "/home/github",
+        "gid": 1060,
+        "gecos": "Github Push Access",
+        "uid": 1060,
+        "shell": "/bin/bash"
+      },
+      "adminR": {
+        "dir": "/home/adminR",
+        "gid": 1001,
+        "gecos": "",
+        "uid": 1001,
+        "shell": "/bin/bash"
+      },
+      "www-data": {
+        "dir": "/var/www",
+        "gid": 33,
+        "gecos": "www-data",
+        "uid": 33,
+        "shell": "/bin/sh"
+      },
+      "c.vilhena": {
+        "dir": "/home/c.vilhena",
+        "gid": 1066,
+        "gecos": "Carlos Vilhena",
+        "uid": 1066,
+        "shell": "/bin/bash"
+      },
+      "steve": {
+        "dir": "/home/steve",
+        "gid": 1055,
+        "gecos": "Steven Mohapi-Banks",
+        "uid": 1055,
+        "shell": "/bin/bash"
+      },
+      "l.thomson": {
+        "dir": "/home/l.thomson",
+        "gid": 1073,
+        "gecos": "Laura Thomson",
+        "uid": 1073,
+        "shell": "/bin/bash"
+      },
+      "news": {
+        "dir": "/var/spool/news",
+        "gid": 9,
+        "gecos": "news",
+        "uid": 9,
+        "shell": "/bin/sh"
+      },
+      "nobody": {
+        "dir": "/nonexistent",
+        "gid": 65534,
+        "gecos": "nobody",
+        "uid": 65534,
+        "shell": "/bin/sh"
+      },
+      "jgoller": {
+        "dir": "/home/jgoller",
+        "gid": 1058,
+        "gecos": "Johannes Goller",
+        "uid": 1058,
+        "shell": "/bin/bash"
+      },
+      "w.roe": {
+        "dir": "/home/w.roe",
+        "gid": 1063,
+        "gecos": "Will Roe",
+        "uid": 1063,
+        "shell": "/bin/zsh"
+      },
+      "list": {
+        "dir": "/var/list",
+        "gid": 38,
+        "gecos": "Mailing List Manager",
+        "uid": 38,
+        "shell": "/bin/sh"
+      },
+      "uucp": {
+        "dir": "/var/spool/uucp",
+        "gid": 10,
+        "gecos": "uucp",
+        "uid": 10,
+        "shell": "/bin/sh"
+      },
+      "refinery": {
+        "dir": "/home/refinery",
+        "gid": 1088,
+        "gecos": "Access to google refine",
+        "uid": 1088,
+        "shell": "/bin/bash"
+      },
+      "a.smout": {
+        "dir": "/home/a.smout",
+        "gid": 1075,
+        "gecos": "Alex Smout",
+        "uid": 1075,
+        "shell": "/bin/bash"
+      },
+      "e.adie": {
+        "dir": "/home/e.adie",
+        "gid": 1068,
+        "gecos": "Euan Adie",
+        "uid": 1068,
+        "shell": "/bin/bash"
+      },
+      "g.gurnhill": {
+        "dir": "/home/g.gurnhill",
+        "gid": 1071,
+        "gecos": "Georgina Gurnhill",
+        "uid": 1071,
+        "shell": "/bin/bash"
+      },
+      "o.nightingale": {
+        "dir": "/home/o.nightingale",
+        "gid": 1087,
+        "gecos": "Oliver Nightingale",
+        "uid": 1087,
+        "shell": "/bin/bash"
+      },
+      "octobutler": {
+        "dir": "/home/octobutler",
+        "gid": 1083,
+        "gecos": "The Octobutler Uploader",
+        "uid": 1083,
+        "shell": "/bin/bash"
+      },
+      "root": {
+        "dir": "/root",
+        "gid": 0,
+        "gecos": "root",
+        "uid": 0,
+        "shell": "/bin/bash"
+      },
+      "sshd": {
+        "dir": "/var/run/sshd",
+        "gid": 65534,
+        "gecos": "",
+        "uid": 102,
+        "shell": "/usr/sbin/nologin"
+      },
+      "games": {
+        "dir": "/usr/games",
+        "gid": 60,
+        "gecos": "games",
+        "uid": 5,
+        "shell": "/bin/sh"
+      },
+      "l.hawizy": {
+        "dir": "/home/l.hawizy",
+        "gid": 1064,
+        "gecos": "Lezan Hawizy",
+        "uid": 1064,
+        "shell": "/bin/bash"
+      },
+      "c.trasande": {
+        "dir": "/home/c.trasande",
+        "gid": 1062,
+        "gecos": "Caitlin Trasande",
+        "uid": 1062,
+        "shell": "/bin/bash"
+      },
+      "jsiddle": {
+        "dir": "/home/jsiddle",
+        "gid": 1053,
+        "gecos": "James Siddle",
+        "uid": 1053,
+        "shell": "/bin/bash"
+      },
+      "sync": {
+        "dir": "/bin",
+        "gid": 65534,
+        "gecos": "sync",
+        "uid": 4,
+        "shell": "/bin/sync"
+      },
+      "o.legg": {
+        "dir": "/home/o.legg",
+        "gid": 1086,
+        "gecos": "Olly Legg",
+        "uid": 1086,
+        "shell": "/bin/zsh"
+      },
+      "gnats": {
+        "dir": "/var/lib/gnats",
+        "gid": 41,
+        "gecos": "Gnats Bug-Reporting System (admin)",
+        "uid": 41,
+        "shell": "/bin/sh"
+      },
+      "redis": {
+        "dir": "/var/lib/redis",
+        "gid": 113,
+        "gecos": "redis server,,,",
+        "uid": 107,
+        "shell": "/bin/false"
+      },
+      "daemon": {
+        "dir": "/usr/sbin",
+        "gid": 1,
+        "gecos": "daemon",
+        "uid": 1,
+        "shell": "/bin/sh"
+      },
+      "m.gorodnitsky": {
+        "dir": "/home/m.gorodnitsky",
+        "gid": 1085,
+        "gecos": "Michael Gorodnitsky",
+        "uid": 1085,
+        "shell": "/bin/zsh"
+      },
+      "proxy": {
+        "dir": "/bin",
+        "gid": 13,
+        "gecos": "proxy",
+        "uid": 13,
+        "shell": "/bin/sh"
+      },
+      "s.peck": {
+        "dir": "/home/s.peck",
+        "gid": 1077,
+        "gecos": "Sebastian Peck",
+        "uid": 1077,
+        "shell": "/bin/bash"
+      },
+      "t.hunger": {
+        "dir": "/home/t.hunger",
+        "gid": 1091,
+        "gecos": "Tom Hunger",
+        "uid": 1091,
+        "shell": "/bin/bash"
+      },
+      "jetty": {
+        "dir": "/usr/share/jetty",
+        "gid": 111,
+        "gecos": "",
+        "uid": 104,
+        "shell": "/bin/false"
+      },
+      "n.goncharoff": {
+        "dir": "/home/n.goncharoff",
+        "gid": 1082,
+        "gecos": "Nicko Goncharoff",
+        "uid": 1082,
+        "shell": "/bin/bash"
+      },
+      "landscape": {
+        "dir": "/var/lib/landscape",
+        "gid": 107,
+        "gecos": "",
+        "uid": 103,
+        "shell": "/bin/false"
+      },
+      "sys": {
+        "dir": "/dev",
+        "gid": 3,
+        "gecos": "sys",
+        "uid": 3,
+        "shell": "/bin/sh"
+      },
+      "a.myers": {
+        "dir": "/home/a.myers",
+        "gid": 1074,
+        "gecos": "Amarjit Myers",
+        "uid": 1074,
+        "shell": "/bin/bash"
+      },
+      "m.szomszor": {
+        "dir": "/home/m.szomszor",
+        "gid": 1089,
+        "gecos": "Martin Szomszor",
+        "uid": 1089,
+        "shell": "/bin/bash"
+      },
+      "e.pitt": {
+        "dir": "/home/e.pitt",
+        "gid": 1076,
+        "gecos": "Elizabeth Pitt",
+        "uid": 1076,
+        "shell": "/bin/bash"
+      },
+      "j.petimar": {
+        "dir": "/home/j.petimar",
+        "gid": 1061,
+        "gecos": "Josh Petimar",
+        "uid": 1061,
+        "shell": "/bin/bash"
+      },
+      "man": {
+        "dir": "/var/cache/man",
+        "gid": 12,
+        "gecos": "man",
+        "uid": 6,
+        "shell": "/bin/sh"
+      },
+      "bpickles": {
+        "dir": "/home/bpickles",
+        "gid": 1054,
+        "gecos": "Ben Pickles",
+        "uid": 1054,
+        "shell": "/bin/bash"
+      },
+      "j.stevenson": {
+        "dir": "/home/j.stevenson",
+        "gid": 1081,
+        "gecos": "Janice Stevenson",
+        "uid": 1081,
+        "shell": "/bin/bash"
+      },
+      "s.laqua": {
+        "dir": "/home/s.laqua",
+        "gid": 1084,
+        "gecos": "Sven Laqua",
+        "uid": 1084,
+        "shell": "/bin/bash"
+      },
+      "rkoks": {
+        "dir": "/home/rkoks",
+        "gid": 1052,
+        "gecos": "Richard Koks",
+        "uid": 1052,
+        "shell": "/bin/bash"
+      },
+      "m.hahnel": {
+        "dir": "/home/m.hahnel",
+        "gid": 1072,
+        "gecos": "Mark Hahnel",
+        "uid": 1072,
+        "shell": "/bin/bash"
+      },
+      "ahinton": {
+        "dir": "/home/ahinton",
+        "gid": 1051,
+        "gecos": "Andrew Hinton",
+        "uid": 1051,
+        "shell": "/bin/bash"
+      },
+      "ntp": {
+        "dir": "/home/ntp",
+        "gid": 112,
+        "gecos": "",
+        "uid": 106,
+        "shell": "/bin/false"
+      },
+      "t.hannay": {
+        "dir": "/home/t.hannay",
+        "gid": 1078,
+        "gecos": "Timo Hannay",
+        "uid": 1078,
+        "shell": "/bin/bash"
+      },
+      "syslog": {
+        "dir": "/home/syslog",
+        "gid": 103,
+        "gecos": "",
+        "uid": 101,
+        "shell": "/bin/false"
+      },
+      "n.ali": {
+        "dir": "/home/n.ali",
+        "gid": 1090,
+        "gecos": "Najaf Ali",
+        "uid": 1090,
+        "shell": "/bin/bash"
+      },
+      "dhagon": {
+        "dir": "/home/dhagon",
+        "gid": 1057,
+        "gecos": "Dan Hagon",
+        "uid": 1057,
+        "shell": "/bin/bash"
+      },
+      "bin": {
+        "dir": "/bin",
+        "gid": 2,
+        "gecos": "bin",
+        "uid": 2,
+        "shell": "/bin/sh"
+      },
+      "irc": {
+        "dir": "/var/run/ircd",
+        "gid": 39,
+        "gecos": "ircd",
+        "uid": 39,
+        "shell": "/bin/sh"
+      },
+      "libuuid": {
+        "dir": "/var/lib/libuuid",
+        "gid": 101,
+        "gecos": "",
+        "uid": 100,
+        "shell": "/bin/sh"
+      },
+      "j.griffin": {
+        "dir": "/home/j.griffin",
+        "gid": 1065,
+        "gecos": "John Griffin",
+        "uid": 1065,
+        "shell": "/bin/zsh"
+      },
+      "rubygems": {
+        "dir": "/home/rubygems",
+        "gid": 998,
+        "gecos": "",
+        "uid": 998,
+        "shell": "/bin/sh"
+      },
+      "s.scott": {
+        "dir": "/home/s.scott",
+        "gid": 1069,
+        "gecos": "Steve Scott",
+        "uid": 1069,
+        "shell": "/bin/bash"
+      },
+      "riak": {
+        "dir": "/var/lib/riak",
+        "gid": 1507,
+        "gecos": "",
+        "uid": 996,
+        "shell": "/bin/bash"
+      },
+      "hubot": {
+        "dir": "/srv/hubot",
+        "gid": 995,
+        "gecos": "",
+        "uid": 995,
+        "shell": "/bin/sh"
+      },
+      "e.piveteau": {
+        "dir": "/home/e.piveteau",
+        "gid": 1080,
+        "gecos": "Elisabeth Piveteau",
+        "uid": 1080,
+        "shell": "/bin/bash"
+      },
+      "mail": {
+        "dir": "/var/mail",
+        "gid": 8,
+        "gecos": "mail",
+        "uid": 8,
+        "shell": "/bin/sh"
+      },
+      "backup": {
+        "dir": "/var/backups",
+        "gid": 34,
+        "gecos": "backup",
+        "uid": 34,
+        "shell": "/bin/sh"
+      },
+      "c.wuhrer": {
+        "dir": "/home/c.wuhrer",
+        "gid": 1079,
+        "gecos": "Carla Wuhrer",
+        "uid": 1079,
+        "shell": "/bin/bash"
+      }
+    }
+  },
+  "ec2": {
+    "public_hostname": "ec2-46-51-173-84.eu-west-1.compute.amazonaws.com",
+    "placement_availability_zone": "eu-west-1a",
+    "block_device_mapping_root": "/dev/sda1",
+    "public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClf735t+X0H25rXoeHOKuCV55AHJ32v8WIgYrDK/a3lnRo/v12BAisu9PDQT3iGKHW6souHNykuO4obQNeSexCvZ1u785RzrYeVYvZwezexxx6qYKoBb4PcvLxmA+2nFMvuuQFGPQCgGw2+f5x1hpRfB5kKVhmfjoqkD88sdLKl07ONzlyVFVkGnzxdQR3X383wV1yN7fY1MSQ4dtRNZ1zFp4Pkno8UZDsDxh1naDreFYm24S32wVRiEwp1884S3S2KPxzvbmFZv+0guG1q0cTQpV33tPgvhD3+AUafqefGVON/As9PVt2QZLS57d1oW1LjoZ5ssOX9CGmeUGToMEf centralkey\n",
+    "profile": "default-paravirtual",
+    "instance_id": "i-722b0004",
+    "instance_type": "m1.large",
+    "block_device_mapping_ephemeral0": "sdb",
+    "local_ipv4": "10.49.127.51",
+    "block_device_mapping_ephemeral1": "sdc",
+    "kernel_id": "aki-4feec43b",
+    "local_hostname": "ip-10-49-127-51.eu-west-1.compute.internal",
+    "reservation_id": "r-4ce88e3a",
+    "public_ipv4": "46.51.173.84",
+    "hostname": "ip-10-49-127-51.eu-west-1.compute.internal",
+    "ami_id": "ami-619ea915",
+    "userdata": null,
+    "block_device_mapping_ami": "sda1",
+    "security_groups": [
+      "Web"
+    ],
+    "ami_manifest_path": "ubuntu-images-eu/ubuntu-natty-11.04-amd64-server-20110426.manifest.xml",
+    "ami_launch_index": "0"
+  },
+  "macaddress": "12:31:3c:04:7c:c5",
+  "block_device": {
+    "xvdf": {
+      "size": "104857600",
+      "removable": "0"
+    },
+    "ram13": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram0": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "xvdg": {
+      "size": "104857600",
+      "removable": "0"
+    },
+    "loop0": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram14": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram1": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "xvdh": {
+      "size": "524288000",
+      "removable": "0"
+    },
+    "xvda1": {
+      "size": "20971520",
+      "removable": "0"
+    },
+    "loop1": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram15": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram2": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "md0": {
+      "size": "104855408",
+      "removable": "0"
+    },
+    "loop2": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram3": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "loop3": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram4": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "loop4": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram5": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "xvdb": {
+      "size": "880732160",
+      "removable": "0"
+    },
+    "loop5": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram6": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "xvdc": {
+      "size": "880732160",
+      "removable": "0"
+    },
+    "loop6": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram10": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram7": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "loop7": {
+      "size": "0",
+      "removable": "0"
+    },
+    "ram11": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram8": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram12": {
+      "size": "131072",
+      "removable": "0"
+    },
+    "ram9": {
+      "size": "131072",
+      "removable": "0"
+    }
+  },
+  "uptime_seconds": 10212124,
+  "cloud": {
+    "public_hostname": "ec2-46-51-173-84.eu-west-1.compute.amazonaws.com",
+    "public_ips": [
+      "46.51.173.84"
+    ],
+    "local_ipv4": "10.49.127.51",
+    "private_ips": [
+      "10.49.127.51"
+    ],
+    "local_hostname": "ip-10-49-127-51.eu-west-1.compute.internal",
+    "public_ipv4": "46.51.173.84",
+    "provider": "ec2"
+  },
+  "platform": "ubuntu"
+}
