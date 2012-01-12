@@ -16,9 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Baton::Ping::VERSION
 
   gem.add_runtime_dependency "baton", "~> 0.3.0"
-  gem.add_runtime_dependency "amqp", "~> 0.8.4"
-  gem.add_runtime_dependency "eventmachine", "~> 1.0.0.beta.4"
-  gem.add_runtime_dependency "em-http-request", "1.0.0"
 
   gem.add_development_dependency "rspec", "~> 2.7"
   gem.add_development_dependency "moqueue", "~> 0.1.4"
