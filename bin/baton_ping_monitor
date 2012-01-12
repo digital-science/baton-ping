@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "baton/baton-ping/monitor"
+
+Baton.configure do |c|
+  c.config_path    = "/etc/baton/baton.cfg"
+  c.exchange_out     = "baton_ping_out"
+end
+
+Baton::PingMonitor.run
