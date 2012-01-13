@@ -8,4 +8,5 @@ require "baton/logging"
 
 WebMock.disable_net_connect!
 
+FileUtils.mkdir_p 'log' unless File.exists?('log')
 Baton::Logging.logger = "log/test.log"
