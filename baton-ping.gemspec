@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n").reject! { |fn| fn.include? ".tgz" }
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n").reject! { |fn| fn.include? ".tgz" }
-  gem.name          = "baton_ping"
+  gem.name          = "baton-ping"
   gem.require_paths = ["lib"]
   gem.version       = Baton::Ping::VERSION
 
