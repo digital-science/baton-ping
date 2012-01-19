@@ -9,10 +9,10 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  gem.files         = `git ls-files`.split("\n").reject! { |fn| fn.include? ".tgz" }
+  gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n").reject! { |fn| fn.include? ".tgz" }
   gem.name          = "baton-ping"
-  gem.require_path  = "lib"
+  gem.require_paths = ["lib"]
   gem.version       = Baton::Ping::VERSION
 
   gem.add_runtime_dependency "baton", "~> 0.3.3"
