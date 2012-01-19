@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split("\n").reject! { |fn| fn.include? ".tgz" }
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n").reject! { |fn| fn.include? ".tgz" }
   gem.name          = "baton-ping"
-  gem.require_paths = ["lib"]
+  gem.require_path  = "lib"
   gem.version       = Baton::Ping::VERSION
 
   gem.add_runtime_dependency "baton", "~> 0.3.3"
