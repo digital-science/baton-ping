@@ -1,6 +1,7 @@
 require "baton"
 require "baton/service"
 require "baton/baton-ping/ping_consumer"
+require "baton/baton-ping/version"
 
 module Baton
   class PingService < Baton::Service
