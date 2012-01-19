@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require "baton"
 require "baton/baton-ping"
 
 Baton.configure do |c|
