@@ -1,2 +1,2 @@
-require "baton/baton_ping/version"
-require "baton/baton_ping/ping_service"
+require "baton/baton-ping/version"
+require "baton/baton-ping/ping_service"

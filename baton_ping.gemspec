@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/baton/baton_ping/version', __FILE__)
+require File.expand_path('../lib/baton/baton-ping/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Carlos Vilhena"]

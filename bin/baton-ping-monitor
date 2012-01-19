@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "baton/baton_ping/monitor"
+require "baton/baton-ping/monitor"
 
 Baton.configure do |c|
   c.config_path  = "/etc/baton-ping/baton-ping.cfg"
