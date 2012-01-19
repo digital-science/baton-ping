@@ -2,7 +2,7 @@ require "spec_helper"
 require "baton"
 require "baton/consumer"
 require "baton/server"
-require "baton/baton-ping/ping_consumer"
+require "baton/baton_ping/ping_consumer"
 
 describe Baton::PingConsumer do
 
