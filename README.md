@@ -12,7 +12,7 @@ Each part is explained in detail below.
 
 ## baton-ping API
 
-baton-ping uses pubsub design to send messages to groups of services. The baton-ping API is a useful client library that allows messages to be sent synchronously to the correct exchange so that it can be easily integrated with existing web applications (like [Octobutler](https://octobutler.dsci.it/) or [hubot](https://github.com/digital-science/hubot-scripts/blob/master/scripts/baton.coffee#L25)). Each operation sends a message to a RabbitMQ exchange, which will route the message to the correct instance(s). It provides two calls.
+baton-ping uses pubsub design to send messages to groups of services. The baton-ping API is a useful client library that allows messages to be sent synchronously to the correct exchange so that it can be easily integrated with existing web applications (such as hubot or web interfaces for one-click deployment). Each operation sends a message to a RabbitMQ exchange, which will route the message to the correct instance(s). It provides two calls.
 
 ### Baton::PingAPI.ping
 
