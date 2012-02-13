@@ -1,5 +1,7 @@
 # baton-ping
 
+[![Build Status](https://secure.travis-ci.org/digital-science/baton-ping.png)](http://travis-ci.org/digital-science/baton-ping)
+
 baton-ping is a [baton's](https://github.com/digital-science/baton) extension that allows one to send ping messages to servers on a specific environment. The three major components are:
 
 - [API](https://github.com/digital-science/baton-ping/blob/master/lib/baton/baton-ping/api.rb)
