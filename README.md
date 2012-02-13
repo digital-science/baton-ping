@@ -24,7 +24,7 @@ This query sends sends the message
 
 With the routing key `<environment>`. Thus, every baton-ping service that registered a queue with the given routing key will receive the message.
 
-## baton-ping Service
+## baton-ping service
 
 baton-ping service is a EventMachine based app that runs on instances you wish to ping. The service reads from an [ohai](http://wiki.opscode.com/display/chef/Ohai) configuration file the following information:
 
