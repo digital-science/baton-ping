@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Baton::Ping::VERSION
 
-  gem.add_runtime_dependency "baton", "~> 0.4.3"
+  gem.add_runtime_dependency "baton", "~> 0.4.5"
 
   gem.add_development_dependency "rspec", "~> 2.7"
   gem.add_development_dependency "moqueue", "~> 0.1.4"
