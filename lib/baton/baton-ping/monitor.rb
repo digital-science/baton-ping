@@ -2,6 +2,7 @@ require "baton"
 require "amqp"
 require "json"
 require "eventmachine"
+require "baton/channel"
 
 module Baton
   class PingMonitor
@@ -15,11 +16,10 @@ module Baton
     def run
       logger.info "Starting baton-ping monitor v#{Baton::VERSION}"
       EM.run do
-        connection = AMQP.connect(Baton.configuration.connection_opts)
 
-        channel  = AMQP::Channel.new(connection)
-        queue    = channel.queue("baton-ping-monitor")
-        exchange_out = channel.direct(Baton.configuration.exchange_out)
+        baton_channel	= Baton::Channel.new
+        queue         = baton_channel.channel.queue("baton-ping-monitor")
+        exchange_out  = baton_channel.channel.direct(Baton.configuration.exchange_out)
 
         queue.bind(exchange_out).subscribe do |payload|
           logger.info "Message read: #{payload}"
