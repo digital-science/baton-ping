@@ -17,7 +17,7 @@ module Baton
       logger.info "Starting baton-ping monitor v#{Baton::VERSION}"
       EM.run do
 
-        baton_channel	= Baton::Channel.new
+        baton_channel = Baton::Channel.new
         queue         = baton_channel.channel.queue("baton-ping-monitor")
         exchange_out  = baton_channel.channel.direct(Baton.configuration.exchange_out)
 
