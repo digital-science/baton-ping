@@ -4,6 +4,7 @@ require "baton/baton-ping/monitor"
 
 Baton.configure do |c|
   c.config_path  = "/etc/baton-ping/baton-ping.cfg"
+  c.exchange     = "baton_ping_monitor_in"
   c.exchange_out = "baton_ping_out"
 end
 
